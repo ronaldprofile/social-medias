@@ -1,8 +1,12 @@
+import Head from "next/head";
 import { Navigation } from "../components/Navigation";
 
 function Home() {
   return (
     <div className="h-screen flex justify-center items-center">
+      <Head>
+        <title>ronaldtomaz.dev</title>
+      </Head>
       <div className="w-full mx-11 flex flex-col md:mx-auto md:w-80">
         <div className="flex flex-col items-center">
           <div className="px-1 py-1 border-4 border-cyan-400 rounded-full">
