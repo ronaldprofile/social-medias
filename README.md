@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Social Medias</h1>
 
-## Getting Started
+<img src="https://ik.imagekit.io/gczsuhmv3/screenshot-rocks__4__6IoSdUFTr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643675635322" alt="screenshot"/>
 
-First, run the development server:
+## 💻 Sobre o desafio
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Neste desafio você deve criar uma página com uma lista de links que pode ser usada em perfis de redes sociais.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Layout
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<img src="https://ik.imagekit.io/gczsuhmv3/socialmedias_7fP67pgua.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643675945254" alt="layout"/>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Você pode duplicar o layout do projeto [clicando aqui](https://www.figma.com/file/yi1ycIyAW8QiGiX9bMFHkU/DD-%2F-Social-links/duplicate).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🚀 **Techs**
 
-## Learn More
+- HTML
+- CSS
 
-To learn more about Next.js, take a look at the following resources:
+## 💡**Como começar?**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1 - Use o link do Figma como base para o projeto. Também disponibilizamos para download todos os assets necessários (imagens e ícones), para fazer o download basta clicar no link acima.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2 - Leia com atenção todas as instruções do desafio.
 
-## Deploy on Vercel
+3 - Bora codar! Lembre-se que você pode usar as tecnologias que se sentir mais confortável, mas também pode se desafiar usando novas techs, fazendo modificações e/ou adicionando funcionalidades no projeto como preferir. 🚀
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4 - Compartilhe seu resultado ou tire suas dúvidas na nossa [**comunidade aberta**](https://discord.gg/bacwY2gDCF)
