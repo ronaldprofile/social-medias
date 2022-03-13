@@ -15,7 +15,7 @@ Você pode duplicar o layout do projeto [clicando aqui](https://www.figma.com/fi
 ## 🚀 **Techs**
 
 - React JS.
-- Typescrip .
+- Typescript .
 - Framer Motion .
 - Tailwind CSS.
 
