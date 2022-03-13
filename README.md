@@ -1,6 +1,6 @@
 <h1 align="center">Social Medias</h1>
 
-<img src="https://ik.imagekit.io/gczsuhmv3/screenshot-rocks__4__6IoSdUFTr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643675635322" alt="screenshot"/>
+<img src="https://ik.imagekit.io/gczsuhmv3/screenshot-rocks_xujgDAzwcKzRK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647181703618" alt="screenshot"/>
 
 ## 💻 Sobre o desafio
 
@@ -8,7 +8,7 @@ Neste desafio você deve criar uma página com uma lista de links que pode ser u
 
 ## Layout
 
-<img src="https://ik.imagekit.io/gczsuhmv3/screenshot-rocks_xujgDAzwcKzRK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647181703618" alt="layout"/>
+<img src="https://ik.imagekit.io/gczsuhmv3/socialmedias_7fP67pgua.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643675945254" alt="layout"/>
 
 Você pode duplicar o layout do projeto [clicando aqui](https://www.figma.com/file/yi1ycIyAW8QiGiX9bMFHkU/DD-%2F-Social-links/duplicate).
 
