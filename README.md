@@ -1,30 +1,14 @@
 <h1 align="center">Social Medias</h1>
 
-<img src="https://ik.imagekit.io/gczsuhmv3/screenshot-rocks_xujgDAzwcKzRK.png?ik-sdk-version=javascript-1.4.3&updatedAt=1647181703618" alt="screenshot"/>
+[social-medias-demo.webm](https://user-images.githubusercontent.com/81709922/185982673-0220db0b-5be7-4c35-ab7c-3bc4fef6fa0d.webm)
 
-## 💻 Sobre o desafio
+## Sobre o desafio
 
 Neste desafio você deve criar uma página com uma lista de links que pode ser usada em perfis de redes sociais.
 
-## Layout
-
-<img src="https://ik.imagekit.io/gczsuhmv3/socialmedias_7fP67pgua.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643675945254" alt="layout"/>
-
-Você pode duplicar o layout do projeto [clicando aqui](https://www.figma.com/file/yi1ycIyAW8QiGiX9bMFHkU/DD-%2F-Social-links/duplicate).
-
-## 🚀 **Techs**
+## Techs
 
 - React JS.
 - Typescript .
 - Framer Motion .
 - Tailwind CSS.
-
-## 💡**Como começar?**
-
-1 - Use o link do Figma como base para o projeto. Também disponibilizamos para download todos os assets necessários (imagens e ícones), para fazer o download basta clicar no link acima.
-
-2 - Leia com atenção todas as instruções do desafio.
-
-3 - Bora codar! Lembre-se que você pode usar as tecnologias que se sentir mais confortável, mas também pode se desafiar usando novas techs, fazendo modificações e/ou adicionando funcionalidades no projeto como preferir. 🚀
-
-4 - Compartilhe seu resultado ou tire suas dúvidas na nossa [**comunidade aberta**](https://discord.gg/bacwY2gDCF)
