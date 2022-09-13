@@ -16,7 +16,44 @@ function Home({ user }: HomeProps) {
   return (
     <>
       <Head>
-        <title>ronaldtomaz.dev</title>
+        <title>Ronald Tomaz</title>
+        <meta
+          name="description"
+          content="Conheça minhas outras redes e bora se conectar e bater um papo?"
+        />
+
+        <meta property="og:url" content="https://ronaldtomaz.vercel.app/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Ronald Tomaz" />
+        <meta
+          property="og:description"
+          content="Conheça minhas outras redes e bora se conectar e bater um papo?"
+        />
+        <meta
+          property="og:image"
+          content="https://github.com/ronaldprofile.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://ronaldtomaz.vercel.app/"
+        />
+        <meta property="twitter:title" content="Ronald Tomaz" />
+        <meta
+          property="twitter:description"
+          content="Conheça minhas outras redes e bora se conectar e bater um papo?"
+        />
+        <meta
+          property="twitter:image"
+          content="https://github.com/ronaldprofile.png"
+        />
+
+        <link
+          rel="icon"
+          type="image/png"
+          href="https://github.com/ronaldprofile.png"
+        />
       </Head>
 
       <div className="h-screen flex justify-center items-center">
@@ -42,7 +79,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
 
   return {
     props: {
-      user: data
-    }
+      user: data,
+    },
   };
 };
