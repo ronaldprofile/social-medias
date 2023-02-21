@@ -9,6 +9,7 @@ interface HomeProps {
     name: string;
     avatar_url: string;
     bio: string;
+    company: string;
   };
 }
 
@@ -62,8 +63,19 @@ function Home({ user }: HomeProps) {
 
           <Navigation />
 
-          <footer className="text-center">
-            <p className="text-white font-normal">{user.bio}</p>
+          <footer className="text-center text-white font-normal">
+            <p className="">{user.bio}</p>
+            <p>
+              Currently working at{" "}
+              <a
+                href="https://www.linkedin.com/company/avanz-tecnologia/"
+                target="_blank"
+                rel="noreferrer"
+                className="underline underline-offset-4 hover:no-underline"
+              >
+                {user.company}
+              </a>
+            </p>
           </footer>
         </div>
       </div>
@@ -79,7 +91,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
 
   return {
     props: {
-      user: data,
-    },
+      user: data
+    }
   };
 };

@@ -30,7 +30,7 @@ export function Navigation() {
         <LinkItem
           href="https://app.rocketseat.com.br/me/ronald-tomaz"
           className="bg-purple-700 hover:bg-transparent hover:border-purple-700"
-          customDelay={4}
+          customDelay={3}
         >
           Rocketseat
         </LinkItem>
