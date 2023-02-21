@@ -28,14 +28,6 @@ export function Navigation() {
         </LinkItem>
 
         <LinkItem
-          href="https://twitter.com/ronaldtomaz_"
-          className="bg-cyan-500 hover:bg-transparent hover:border-cyan-500"
-          customDelay={3}
-        >
-          Twitter
-        </LinkItem>
-
-        <LinkItem
           href="https://app.rocketseat.com.br/me/ronald-tomaz"
           className="bg-purple-700 hover:bg-transparent hover:border-purple-700"
           customDelay={4}
