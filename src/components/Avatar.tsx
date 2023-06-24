@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface AvatarProps {
   name: string;
@@ -10,7 +11,7 @@ export function Avatar({ avatar_url, name }: AvatarProps) {
     <motion.div
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 1, ease: ['easeIn'] }}
+      transition={{ duration: 1, ease: ["easeIn"] }}
       className="p-2 relative border-4 border-cyan-400 rounded-full"
     >
       <motion.div className="w-full absolute -bottom-1 left-0 text-center">
@@ -19,9 +20,11 @@ export function Avatar({ avatar_url, name }: AvatarProps) {
         </span>
       </motion.div>
 
-      <motion.img
+      <Image
         src={avatar_url}
         alt={name}
+        width={100}
+        height={100}
         className="w-24 h-24 cursor-pointer rounded-full md:w-40 md:h-40"
       />
     </motion.div>

@@ -1,22 +1,22 @@
-import Head from "next/head";
-import { GetServerSideProps } from "next";
-
+import Link from "next/link";
 import { Navigation } from "../components/Navigation";
 import { Profile } from "../components/Profile";
 
-interface HomeProps {
-  user: {
-    name: string;
-    avatar_url: string;
-    bio: string;
-    company: string;
-  };
+interface User {
+  name: string;
+  avatar_url: string;
+  bio: string;
+  company: string;
 }
 
-function Home({ user }: HomeProps) {
+export default async function Home() {
+  const response = await fetch("https://api.github.com/users/ronaldprofile");
+  const data = await response.json();
+  const user: User = data;
+
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Ronald Tomaz</title>
         <meta
           name="description"
@@ -55,7 +55,7 @@ function Home({ user }: HomeProps) {
           type="image/png"
           href="https://github.com/ronaldprofile.png"
         />
-      </Head>
+      </Head> */}
 
       <div className="h-screen flex justify-center items-center">
         <div className="w-full mx-11 flex flex-col md:mx-auto md:w-80">
@@ -64,17 +64,17 @@ function Home({ user }: HomeProps) {
           <Navigation />
 
           <footer className="text-center text-white font-normal">
-            <p className="">{user.bio}</p>
+            <p>{user.bio}</p>
             <p>
               Currently working at{" "}
-              <a
+              <Link
                 href="https://www.linkedin.com/company/avanz-tecnologia/"
                 target="_blank"
                 rel="noreferrer"
                 className="underline underline-offset-4 hover:no-underline"
               >
                 {user.company}
-              </a>
+              </Link>
             </p>
           </footer>
         </div>
@@ -82,16 +82,3 @@ function Home({ user }: HomeProps) {
     </>
   );
 }
-
-export default Home;
-
-export const getServerSideProps: GetServerSideProps = async () => {
-  const response = await fetch("https://api.github.com/users/ronaldprofile");
-  const data = await response.json();
-
-  return {
-    props: {
-      user: data
-    }
-  };
-};
